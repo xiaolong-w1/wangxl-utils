@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.dayOfYear=function(e){var t=null;(t=e?"string"==typeof e?new Date(e):e:new Date).getFullYear||(t=new Date);var r=t.getFullYear(),a=new Date(r,0,0),n=t.getTime()-a.getTime();return Math.floor(n/1e3/60/60/24)};
